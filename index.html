@@ -16,8 +16,9 @@
     <model-viewer <!-- Import the component -->
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     
-    <div class="demo" style="background: transparent; overflow-x: hidden;">
-  <model-viewer camera-controls src="./NeilArmstrong.glb" ar ar-modes="webxr scene-viewer quick-look" alt="A 3D transparency test" style="background-color: unset;"></model-viewer>
+    <model-viewer src="./NeilArmstrong.glb" ar ar-scale="fixed" camera-controls
+    alt="A 3D model of an astronaut" skybox-image="./aircraft_workshop_01_1k.hdr"
+    ios-src="./NeilArmstrong.glb" xr-environment></model-viewer>
 </div>
     
 </body>
