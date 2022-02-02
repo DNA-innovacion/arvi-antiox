@@ -16,9 +16,11 @@
     <model-viewer <!-- Import the component -->
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     
-    <model-viewer src="./meche.glb" ar ar-scale="fixed" camera-controls
-    alt="A 3D model of an astronaut" skybox-image="./spruit_sunrise_1k.hdr"
-    ios-src="./meche.glb" xr-environment></model-viewer>
+   <model-viewer
+    alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+    src="./meche.glb" ar ar-modes="webxr scene-viewer quick-look"
+    seamless-poster shadow-intensity="1" camera-controls></model-viewer> 
+    
 </div>
     
 </body>
